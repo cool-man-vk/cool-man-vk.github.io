@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript">
+        function closeNav()
+        {
+            document.getElementById('menus').style.width = "0px";
+            document.getElementById('opt-items').style.visibility = "hidden";
+        }
+        function showNav()
+        {
+            document.getElementById('menus').style.width = "100%";
+            document.getElementById('opt-items').style.visibility = "visible";
+        }
+    </script>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="logo">
+            <a href="/">
+                <h3>Vignesh's Portfolio</h3>
+            </a>
+        </div>
+        <div class="menus" id="menus">
+            <ul id="opt-items">
+                <i class="fa fa-close" onclick="closeNav()"></i>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Responsive toggle-->
+    <i class="fa fa-bars" onclick="showNav()"></i>
+    <!--Navbar end-->
+    <!--After navbar content-->
+    <div class="frontpage">
+        <div class="photo"></div>
+        <div class="photo"></div>
+        <div class="myname" >
+            <h1>HI I AM <b style="color:orangered;">VIGNESH KUMAR</b></h1>
+            <BR>
+            <h3 style="color: white;">I AM A FULL STACK WEB DEVELOPER</h3>
+        </div>
+    </div>
+    <!--End content-->
+    <!--About section-->
+    <div id="about" class="about">
+        <div class="abt-sec1">
+            <h1>ABOUT ME</h1>
+            <br><br>
+            <P>
+                I am a acquistive student working on web 
+                development , UI design and building some 
+                other cool innovative projects and thinking 
+                to expand my knowledge in 
+                doing some cool automations using python.<br/>
+                You can get my resume <a href="/" class="resume-link">here</a>
+            </P>
+        </div>
+        <div class="abt-sec2">
+            <img src="./images/about.svg" alt="">
+        </div>
+    </div>
+    <!--Abouyt section end-->
+    <!--My skills part -->
+    <div class="skills" id="skills">
+        <h1 class="myskills">MY SKILLS</h1>
+        <div class="divisions">
+            <div>
+                <h2>Web development</h2>
+                <div class="total-percent">
+                    <div class="percent" style="width:85%;">
+                    </div>
+                </div>
+                <h2>Backend development</h2>
+                <div class="total-percent">
+                    <div class="percent" style="width:65%;">
+                    </div>
+                </div>
+                <h2>Python</h2>
+                <div class="total-percent">
+                    <div class="percent" style="width:75%;">
+                    </div>
+                </div>
+                <h2>C++</h2>
+                <div class="total-percent">
+                    <div class="percent" style="width:70%;">
+                    </div>
+                </div>
+                <h2>Java</h2>
+                <div class="total-percent">
+                    <div class="percent" style="width:60%;">
+                    </div>
+                </div>
+            </div>
+            <div class="non-technical">
+                <h2>Problem Solving</h2>
+                <div class="total-percent">
+                    <div class="percent" style="width:85%;">
+                    </div>
+                </div>
+                <h2>Communication</h2>
+                <div class="total-percent">
+                    <div class="percent" style="width:75%;">
+                    </div>
+                </div>
+                <h2>Leadership</h2>
+                <div class="total-percent">
+                    <div class="percent" style="width:90%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--My skills end-->
+    <!--Educatiion-->
+    <div class="education" id="education">
+        <h1 class="edu">EDUCATION</h1>
+        <div class="edu-division">
+            <div class="edu-inner">
+                <ul class="boards">
+                    <li>
+                        <h2 style="color:orangered;">BTech - Computer Science and Engineering.</h2>
+                        <h3>Amrita School of Engineering,Chennai.</h3>
+                        <h3>2021 - Present</h3>
+                    </li>
+                    <li>
+                        <h2 style="color:orangered;">Senior Secondary Board , Tamilnadu State Board.</h2>
+                        <h3>Platos Academy Higher Secondary School , Tirupur.</h3>
+                        <h3>2018 - 2020</h3>
+                    </li>
+                    <li>
+                        <h2 style="color:orangered;">Higher Secondary Board , Tamilnadu State Board.</h2>
+                        <h3>Amrita Vidyalayam Matriculation Higher Secondary School , Tirupur.</h3>
+                        <h3>2017-2018</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Education end-->
+    <!--My projects-->
+    <div class="my-projects" id="projects">
+        <h1 class="header-mypr">MY PROJECTS</h1>
+        <div class="projects">
+            <!--1st-->
+            <a href="https://cool-man-vk.github.io/CosmoGalact/" class="project-link" target="_blank">
+                <div class="lists">
+                    <div class="description">
+                        <h2>1 . CosmoGalact</h2>
+                        <p>
+                            You can get to know about the asteriod 
+                            details which are near the earth and 
+                            displays about each of them in detail 
+                            with some of the information .
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./images/cosmogalact.jpg" class="poster-img">
+                    </div>
+                </div>
+            </a>
+            <!--2nd-->
+            <a href="https://blazer.netlify.app" class="project-link" target="_blank">
+                <div class="lists">
+                    <div class="description">
+                        <h2>2 . Blazer</h2>
+                        <p>
+                            An end-to-end web application which updates
+                            with the air and climate data based on the working
+                            of APIs.
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./images/blazer.png" class="poster-img">
+                    </div>
+                </div>
+            </a>
+            <!--3rd-->
+            <a href="https://cool-man-vk.github.io/Stratify/" class="project-link" target="_blank">
+                <div class="lists">
+                    <div class="description">
+                        <h2>3 . Stratify</h2>
+                        <p>
+                            The Web Application takes input from the user 
+                            in the form of an image of the waste, which 
+                            is then evaluated by the Trained Model and 
+                            it provides us the output in the form of 
+                            category under which the image falls into.
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./images/stratify.jpg" class="poster-img">
+                    </div>
+                </div>
+            </a>
+            <!--4th-->
+            <a href="https://food-crater.netlify.app" class="project-link" target="_blank">
+                <div class="lists">
+                    <div class="description">
+                        <h2>4 . Food Crater</h2>
+                        <p>
+                            Food crater is a web based application 
+                            for giving suggestions what to 
+                            cook based on the 
+                            ingredient in your hand.
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./images/foodcrater.png" class="poster-img">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--contact form-->
+    <!-- <div class="contact" id="contact">
+        <h1 class="contact-header">CONTACT FORM</h1>
+        <form action="" method="post" style="padding:20px;" class="contact-form">
+            {% csrf_token %}
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </div> -->
+    <!--Footer--> 
+    <div class="footer">
+        <div class="top-foot">
+          <div>
+              <h5 style="color: white;" class="quick-links">Navigation</h5>
+            <ul class="foot-lists">
+                <li><a href="/">Home</a></li> 
+                <li><a href="#about">About</a></li> 
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div style="justify-content: center;display:block;">
+              <h5 style="color:white;" class="get2us">Get in touch with me on</h5>
+              <ul class="social" style="list-style:none;display:flex;padding:20px;">
+                  <a href="https://www.linkedin.com/in/vignesh-kumar-8101581b0/" target="_blank">
+                      <li><i class="fa fa-linkedin"></i></li>
+                  </a>
+                  <a href="https://github.com/cool-man-vk" target="_blank">
+                      <li><i class="fa fa-github"></i></li>
+                  </a>
+                  <a href="https://twitter.com/cool_man_vk" target="_blank">
+                      <li><i class="fa fa-twitter"></i></li>
+                  </a>
+                  <a href="mailto:rrvigneshkumar2002@gmail.com" target="_blank">
+                        <li><i class="fa fa-envelope"></i></li>
+                  </a>
+              </ul>
+          </div>
+        </div>
+        <h6 class="copyrights" style="color: white;text-align:center;">Copyrights©2021.All Rights Reserved</h6>
+    </div>
+</body>
+</html>
