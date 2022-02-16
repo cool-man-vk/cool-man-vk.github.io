@@ -46,6 +46,11 @@ html {
     color:white;
     font-size:20px;
 }
+.menus ul li a:hover 
+{
+    transition:color .5s;
+    color:orangered;
+}
 .frontpage
 {
     height:95vh;
@@ -72,7 +77,7 @@ html {
     width:210px;
     height:210px;
     border-radius: 50%;
-    left:52%;
+    left:48%;
     right:-50%;
     top:42%;
     transform: translate(-50%,-50%);
