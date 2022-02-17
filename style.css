@@ -305,6 +305,10 @@ html {
 {
     color:orangered;
 }
+.social 
+{
+    flex-rap:wrap;
+}
 .social > a 
 {
     text-decoration: none; 
