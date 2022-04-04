@@ -305,6 +305,10 @@ html {
 {
     color:orangered;
 }
+.social 
+{
+    flex-rap:wrap;
+}
 .social > a 
 {
     text-decoration: none; 
@@ -358,7 +362,7 @@ html {
 }
 .copyrights
 {
-    font-size:18px;
+    font-size:15px;
     letter-spacing: 2px;
 }
 .get2us
